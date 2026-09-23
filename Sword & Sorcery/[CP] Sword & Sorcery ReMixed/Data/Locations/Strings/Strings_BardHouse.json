@@ -1,0 +1,43 @@
+{
+  "Changes": [
+    {
+      "LogName": "Map Strings",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "ScatteredSheetMusic": "{{i18n:Strings.ScatteredSheetMusic}}",
+        "MusicTheory": "{{i18n:Strings.MusicTheory}}",
+        "MusicTheory2": "{{i18n:Strings.MusicTheory2}}",
+        "IncrediWomanComics": "{{i18n:Strings.IncrediWomanComics}}",
+        "BigPiano": "{{i18n:Strings.BigPiano}}",
+        "BigTelescope": "{{i18n:Strings.BigTelescope}}",
+        "MusicProductionStation": "{{i18n:Strings.MusicProductionStation}}",
+        "StageOutfit": "{{i18n:Strings.StageOutfit}}",
+        "GrammyAward": "{{i18n:Strings.GrammyAward}}",
+        "CoriPlant1": "{{i18n:Strings.CoriPlant1}}",
+        "CoriPlant2": "{{i18n:Strings.CoriPlant2}}",
+        "CoriPlant3": "{{i18n:Strings.CoriPlant3}}",
+        "CoriPlant4": "{{i18n:Strings.CoriPlant4}}",
+        "CoriPlant5": "{{i18n:Strings.CoriPlant5}}",
+        "CoriPlant6": "{{i18n:Strings.CoriPlant6}}",
+        "TinyChica": "{{i18n:Strings.TinyChica}}",
+        "TinyFreddy": "{{i18n:Strings.TinyFreddy}}",
+        "TinyBonnie": "{{i18n:Strings.TinyBonnie}}",
+        "MeteorCollection": "{{i18n:Strings.MeteorCollection}}",
+        "AstrologyBooks": "{{i18n:Strings.AstrologyBooks}}",
+        "StygiumIsFromSpace": "{{i18n:Strings.StygiumIsFromSpace}}",
+        "CoriKitchen": "{{i18n:Strings.ScatteredSheetMusic}}",
+        "BigFreddy": "{{i18n:Strings.BigFreddie}}",
+        "Strings.MothersLetter": "{{i18n:Strings.Strings.MothersLetter}}",
+        "CoriPosters": "{{i18n:Strings.CoriPosters}}",
+        "CoriGramophone": "{{i18n:Strings.CoriGramophone}}",
+        "SophieHat": "{{i18n:Strings.SophieHat}}",
+        "CoriGuitar": "{{i18n:Strings.CoriGuitar}}",
+        "WillysWonderland": "{{i18n:Strings.WillysWonderland}}",
+        "PolybiusCabinet": "{{i18n:Strings.PolybiusCabinet}}",
+        "MothersLetters": "{{i18n:Strings.MotherLetters}}",
+        "PostmodernJukebox": "{{i18n:Strings.PostmodernJukebox.{{Random:1++2++3++4++5++6++7++8++9++10++11++12++13|inputSeparator=++}}}}",
+      }
+    }
+  ]
+}
