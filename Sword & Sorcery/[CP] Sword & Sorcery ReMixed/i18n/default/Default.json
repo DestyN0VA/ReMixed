@@ -7162,8 +7162,6 @@ ________      ________ _   _ _______ _____
 
   "object.stygium-ore-stone.name": "Stygium Node",
   "object.stygium-ore-stone.description": "A node containing Stygium Ore.",
-  "object.stygium-ore.name": "Stygium Ore",
-  "object.stygium-ore.description": "Metal infused with void energy. Curses on touch.",
   "object.stygium-bar.name": "Stygium Bar",
   "object.stygium-bar.description": "Metal infused with void energy. Curses on touch.",
   "buff.stygium-poisoning": "Stygium Poisoning",

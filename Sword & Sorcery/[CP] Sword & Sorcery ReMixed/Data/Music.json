@@ -1,7 +1,242 @@
 {
     "Changes": [
-
         // AUDIO DATA
+        // Deep Dark
+        {
+            "LogName": "S&S Music",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                // LOCATIONAL THEMES
+                "DN.DeepDarkIntrigue": {
+                    "ID": "DN.DeepDarkIntrigue",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/DeepDark_Intrigue.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.DeepDarkLingering": {
+                    "ID": "DN.DeepDarkLingering",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/DeepDark_Lingering.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.YggdrasilTheme": {
+                    "ID": "DN.YggdrasilTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/YggdrasilTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.CoastBeyondTheme": {
+                    "ID": "DN.CoastBeyondTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/CoastBeyondTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                // NPC THEMES
+                "DN.ValTheme": {
+                    "ID": "DN.ValTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/ValTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.HectorTheme": {
+                    "ID": "DN.HectorTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/HectorTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.CorianderTheme": {
+                    "ID": "DN.CorianderTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/CorianderTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.LorinTheme": {
+                    "ID": "DN.LorinTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/LorinTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.RoslinTheme": {
+                    "ID": "DN.RoslinTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/RoslinTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.DandelionTheme": {
+                    "ID": "DN.DandelionTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/DandelionTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.SolomonTheme": {
+                    "ID": "DN.SolomonTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/SolomonTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                // CORIANDER'S SONGS
+                "DN.Caramel": {
+                    "ID": "DN.Caramel",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Caramel_Full.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Caramel_1": {
+                    "ID": "DN.Caramel_1",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Caramel_1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Caramel_2": {
+                    "ID": "DN.Caramel_2",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Caramel_2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.SpaceOddity": {
+                    "ID": "DN.SpaceOddity",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/SpaceOddity.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Damocles_1": {
+                    "ID": "DN.Damocles_1",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Damocles_1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Damocles_2": {
+                    "ID": "DN.Damocles_2",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Damocles_2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.I2I_1": {
+                    "ID": "DN.I2I_1",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/I2I_1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.I2I_2": {
+                    "ID": "DN.I2I_2",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/I2I_2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+            }
+        },
+        // SOUNDS
+        {
+            "LogName": "S&S Sound Effects",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "DN.ArdenRoar": {
+                    "ID": "DN.ArdenRoar",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.NimfearRoar": {
+                    "ID": "DN.NimfearRoar",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.BossCrabRoar": {
+                    "ID": "DN.BossCrabRoar",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/BossCrabRoar.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.DuckySqueak": {
+                    "ID": "DN.DuckySqueak",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Squeak.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.Laugh": {
+                    "ID": "DN.Laugh",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Laugh.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        // OLD STUFF 
         {
             "LogName": "S&S Music",
             "Action": "EditData",
@@ -186,85 +421,5 @@
                 },
             }
         },
-
-        // JUKEBOX DATA 
-        {
-            "Action": "EditData",
-            "Target": "Data/JukeboxTracks",
-            "Entries": {
-                "SnS.MateoTheme": {
-                    "Name": "{{i18n:Strings.Music.MateoTheme}}",
-                    "Available": null
-                },
-                "SnS.HectorTheme": {
-                    "Name": "{{i18n:Strings.Music.HectorTheme |HectorName={{TrueName}}}}",
-                    "Available": null
-                },
-                "SnS.CirrusTheme": {
-                    "Name": "{{i18n:Strings.Music.CirrusTheme}}",
-                    "Available": null
-                },
-                "SnS.KeytarSolo": {
-                    "Name": "{{i18n:Strings.Music.KeytarSolo}}",
-                    "Available": null
-                },
-                "SnS.DandelionTheme": {
-                    "Name": "{{i18n:Strings.Music.DandelionTheme}}",
-                    "Available": null
-                },
-                "SnS.RoslinTheme": {
-                    "Name": "{{i18n:Strings.Music.RoslinTheme}}",
-                    "Available": null
-                },
-                "SnS.LonelyTheme": {
-                    "Name": "{{i18n:Strings.Music.LonelyTheme}}",
-                    "Available": null
-                },
-                "SnS.LonelyThemeReprise": {
-                    "Name": "{{i18n:Strings.Music.LonelyThemeReprise}}",
-                    "Available": null
-                },
-                "SnS.DespairTheme": {
-                    "Name": "{{i18n:Strings.Music.DespairTheme}}",
-                    "Available": null
-                },
-                "SnS.HopeTheme": {
-                    "Name": "{{i18n:Strings.Music.HopeTheme}}",
-                    "Available": null
-                },
-                "SnS.VulnerableTheme": {
-                    "Name": "{{i18n:Strings.Music.VulnerableTheme}}",
-                    "Available": null
-                },
-                "SnS.SMFS": {
-                    "Name": "{{i18n:Strings.Music.SMFS}}",
-                    "Available": null
-                },
-                "SnS.SMFSR": {
-                    "Name": "{{i18n:Strings.Music.SMFSR}}",
-                    "Available": null
-                },
-                "SnS.DuskspirePhase1": {
-                    "Name": "{{i18n:Strings.Music.DuskspirePhase1}}",
-                    "Available": null
-                },
-                "SnS.DuskspirePhase2": {
-                    "Name": "{{i18n:Strings.Music.DuskspirePhase2}}",
-                    "Available": null
-                },
-                "SnS.DeepDarkDark": {
-                    "Name": "{{i18n:Strings.Music.DeepDarkDark}}",
-                    "Available": null
-                },
-                "SnS.DeepDarkMushrooms": {
-                    "Name": "{{i18n:Strings.Music.DeepDarkMushrooms}}",
-                    "Available": null
-                },
-                "SnS.DeepDarkLakes": {
-                    "Name": "{{i18n:Strings.Music.DeepDarkLakes}}",
-                    "Available": null
-                }
-            }
-        }
-     ]
+    ]
 }

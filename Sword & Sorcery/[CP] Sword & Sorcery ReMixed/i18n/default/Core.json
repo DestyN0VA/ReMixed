@@ -1,0 +1,53 @@
+{
+    // Names
+    "Val.Name": "Val",
+    "Hector.Name": "Hector",
+    "Coriander.Name": "Coriander",
+    "Lorin.Name": "Lorin",
+    "Roslin.Name": "Roslin",
+    "Dandelion.Name": "Dandelion",
+    "Arden.Name": "Arden",
+    "Tom.Name": "Major Tom",
+    // Event Variations 
+    "Val.2H.1.true": "I've been neglecting Gunther and Marlon, but I didn't realize that... hm.$6#$b#Well, for right now, you're my priority. First round's on me... aye?$4#$b#After this, we could head back home - to check up on the Pepper Rex egg, of course.$19",
+    "Val.2H.1.false": "I've been neglecting Gunther and Marlon, but I didn't realize that... hm.$6#$b#Well, for right now, the coffee you promised is my priority.$28#$b#Oh! And I've got to go check up on my Pepper Rex egg after this, if you'd like to come with.$26",
+    "Coriander.7H.1.true": "Oh, hey. It's pizza freak - here with some emergency pizza?",
+    "Coriander.7H.1.false": "Oh, hey. It's the farmer - you show up at the weirdest times, tch.",
+    "Coriander.5H.Message.true": "You spend some time on the telescope with Coriander; she reaches for your hand, and takes it in hers. There's a soft smile on her face, until a sound overhead grabs her attention.",
+    "Coriander.5H.Message.false": "You spend some time on the telescope with Coriander; she seems very content and comfortable in your company... until a sound overhead grabs your attention.",
+    "Coriander.8H.1.true": "Well, pizza freak - things changes. Sometimes, ya' want pepperonis, and sometimes, ya don't. $6",
+    "Coriander.8H.1.false": "Tch! Sometimes, things change. Gotta, ya'know, follow the creative inspiration n' whatnot.$7",
+    "Coriander.9H.1.true": "Pizza freak over here really came through - so, I had this idea and had to borrow your keytar...$6",
+    "Coriander.9H.1.false": "Yeah, our pal over here really came through - so, I had this idea and had to borrow your keytar...$6",
+
+    //Day End Question
+    "Event.EndDay.Question": "End the day?",
+    "Event.EndDay.Yes": "Yes",
+    "Event.EndDay.No": "No (Sleep required for world changes to update)",
+    "Event.EndDay.No2": "No",
+    //Social Menu 
+    "Val.SocialMenu.11635": "(single)",
+    "Val.SocialMenu.11636": "(spouse)",
+    "Val.SocialMenu.11637": "(spouse)",
+    "Val.SocialMenu.11639": "(partner)",
+    "Val.SocialMenu.11640": "(partner)",
+    "Val.SocialMenu.11642": "(ex-spouse)",
+    "Val.SocialMenu.11643": "(ex-spouse)",
+
+    "Val.Nick": "Sunshine",
+    "Hector.Nick": "Deerly Beloved",
+    "Coriander.Nick": "Superstar",
+    "Lorin.Nick": "my dear @",
+    "Arden.Nick": "sup fish",
+
+    "Hector.Pronoun.1.false": "he",
+    "Hector.Pronoun.2.false": "him",
+    "Hector.Pronoun.3.false": "his",
+    "Hector.Pronoun.4.false": "himself",
+
+    "Hector.Pronoun.1.true": "she",
+    "Hector.Pronoun.2.true": "her",
+    "Hector.Pronoun.3.true": "hers",
+    "Hector.Pronoun.4.true": "herself"
+
+}

@@ -14,7 +14,7 @@
             "Action": "Load",
             "Priority": "Low",
             "Target": "Portraits/Mateo",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Seasonal/Mateo_Seasonal_Spring.png"
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Seasonal/Val_Seasonal_Spring.png"
         },
 
         // LOADS
@@ -22,7 +22,7 @@
             "LogName": "Beach Portraits - Mateo",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/Mateo_Beach",
+            "Target": "Portraits/Val_Beach",
             "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/{{MateoBeach}}"
         },
         {
@@ -43,8 +43,8 @@
             "LogName": "Date Night Portraits - Mateo",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DateNight_Mateo",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/DateNight_Mateo.png"
+            "Target": "Portraits/DateNight_Val",
+            "FromFile": "Assets/Portraits/Default/Mateo/Seasonal/Val_Seasonal_Spring.png"
         },
         {
             "LogName": "Date Night Sprites - Mateo",
@@ -57,14 +57,14 @@
             "LogName": "Armor Portraits - Mateo",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/Armor_Mateo, Portraits/MateoMine",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Armor_Mateo.png"
+            "Target": "Portraits/Armor_Val, Portraits/MateoMine",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Armor_Val.png"
         },
         {
             "LogName": "Armor Portraits - Mateo",
             "Action": "Load",
             "Priority": "Medium",
-            "Target": "Portraits/Armor_Mateo, Portraits/MateoMine",
+            "Target": "Portraits/Armor_Val, Portraits/MateoMine",
             "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/{{MateoArmor}}"
         },
         {
@@ -90,14 +90,14 @@
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/Mateo_Seasonal_Spring, Portraits/Mateo_Seasonal_Summer, Portraits/Mateo_Seasonal_Winter, Portraits/Mateo_Seasonal_Fall_1, Portraits/Mateo_Seasonal_Fall_2",
+            "Target": "Portraits/Val_Seasonal_Spring, Portraits/Val_Seasonal_Summer, Portraits/Val_Seasonal_Winter, Portraits/Val_Seasonal_Fall_1, Portraits/Val_Seasonal_Fall_2",
             "FromFile": "Assets/{{TargetPathOnly}}/{{Portrait Style}}/Mateo/Seasonal/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/EggFair_Mateo, Portraits/FlowerDance_Mateo, Portraits/IceFestWinterStar_Mateo, Portraits/LuauMoonlight_Mateo",
-            "FromFile": "Assets/{{TargetPathOnly}}/{{Portrait Style}}/Mateo/Festivals/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/EggFair_Val, Portraits/FlowerDance_Val, Portraits/IceFestWinterStar_Val, Portraits/LuauMoonlight_Val",
+            "FromFile": "Assets/{{TargetPathOnly}}/{{Portrait Style}}/Mateo/Festival/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
@@ -112,9 +112,9 @@
             "LogName": "Mateo's Scar Overlay",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Portraits/Mateo_Seasonal_Spring, Portraits/Mateo_Seasonal_Summer, Portraits/Mateo_Seasonal_Winter, Portraits/Mateo_Seasonal_Fall_1, Portraits/Mateo_Seasonal_Fall_2, Portraits/EggFair_Mateo, Portraits/FlowerDance_Mateo, Portraits/IceFestWinterStar_Mateo, Portraits/LuauMoonlight_Mateo, Portraits/DateNight_Mateo",
+            "Target": "Portraits/Val_Seasonal_Spring, Portraits/Val_Seasonal_Summer, Portraits/Val_Seasonal_Winter, Portraits/Val_Seasonal_Fall_1, Portraits/Val_Seasonal_Fall_2, Portraits/EggFair_Val, Portraits/FlowerDance_Val, Portraits/IceFestWinterStar_Val, Portraits/LuauMoonlight_Val, Portraits/DateNight_Val",
             "PatchMode": "Overlay",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/scar_overlay_mateo.png",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/scar_overlay_Val.png",
             "Update": "OnLocationChange",
             "When": { "HasSeenEvent |contains=SnS.Ch1.Mateo.9": true, "HasMod |contains=McJoan.Mateo": false }
         },
@@ -122,9 +122,9 @@
             "LogName": "Mermaid Pendant Earring",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Portraits/Mateo_Seasonal_Spring, Portraits/Mateo_Seasonal_Summer, Portraits/Mateo_Seasonal_Winter, Portraits/Mateo_Seasonal_Fall_1, Portraits/Mateo_Seasonal_Fall_2, Portraits/EggFair_Mateo, Portraits/FlowerDance_Mateo, Portraits/IceFestWinterStar_Mateo, Portraits/LuauMoonlight_Mateo, Portraits/DateNight_Mateo",
+            "Target": "Portraits/Val_Seasonal_Spring, Portraits/Val_Seasonal_Summer, Portraits/Val_Seasonal_Winter, Portraits/Val_Seasonal_Fall_1, Portraits/Val_Seasonal_Fall_2, Portraits/EggFair_Val, Portraits/FlowerDance_Val, Portraits/IceFestWinterStar_Val, Portraits/LuauMoonlight_Val, Portraits/DateNight_Val",
             "PatchMode": "Overlay",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/pendant_overlay_mateo.png",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/pendant_overlay_Val.png",
             "Update": "OnLocationChange",
             "When": { "Relationship:Mateo |contains=Married": true, "MermaidPendantEarring": true,
                       "HasMod |contains=McJoan.Mateo": false }
@@ -133,18 +133,18 @@
             "LogName": "Mateo's Troll Heritage Portrait Overlay",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Portraits/Mateo_Seasonal_Spring, Portraits/Mateo_Seasonal_Summer, Portraits/Mateo_Seasonal_Winter, Portraits/Mateo_Seasonal_Fall_1, Portraits/Mateo_Seasonal_Fall_2, Portraits/EggFair_Mateo, Portraits/FlowerDance_Mateo, Portraits/IceFestWinterStar_Mateo, Portraits/LuauMoonlight_Mateo, Portraits/DateNight_Mateo, Portraits/Mateo_Beach",
+            "Target": "Portraits/Val_Seasonal_Spring, Portraits/Val_Seasonal_Summer, Portraits/Val_Seasonal_Winter, Portraits/Val_Seasonal_Fall_1, Portraits/Val_Seasonal_Fall_2, Portraits/EggFair_Val, Portraits/FlowerDance_Val, Portraits/IceFestWinterStar_Val, Portraits/LuauMoonlight_Val, Portraits/DateNight_Val, Portraits/Val_Beach",
             "PatchMode": "Overlay",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/{{Horns}}_Overlay_Mateo.png",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/{{Horns}}_Overlay_Val.png",
             "When": { "MateoTrollHeritage": true, "HasMod |contains=McJoan.Mateo": false }
         },
         {
             "LogName": "Mateo's Troll Heritage Portrait Overlay Stage 1 - Armor",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Portraits/Armor_Mateo",
+            "Target": "Portraits/Armor_Val",
             "PatchMode":"Overlay",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Armor_Horns1_Overlay_Mateo.png",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Armor_Horns1_Overlay_Val.png",
             "When": { "MateoTrollHeritage": true, "Horns |contains=Horns1": true,
                       "HasMod |contains=McJoan.Mateo": false }
         },
@@ -152,9 +152,9 @@
             "LogName": "Mateo's Troll Heritage Portrait Overlay Other Stages - Armor",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Portraits/Armor_Mateo",
+            "Target": "Portraits/Armor_Val",
             "PatchMode":"Overlay",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/{{Horns}}_Overlay_Mateo.png",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/{{Horns}}_Overlay_Val.png",
             "When": { "MateoTrollHeritage": true, "Horns |contains=Horns1": false,
                       "HasMod |contains=McJoan.Mateo": false }
         },
@@ -162,25 +162,25 @@
             "LogName": "Mateo's Troll Heritage Portrait Overlay Googles Patch - Armor",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Portraits/Armor_Mateo",
+            "Target": "Portraits/Armor_Val",
             "PatchMode":"Overlay",
-            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Armor_Goggles_Overlay_Mateo.png",
+            "FromFile": "Assets/Portraits/{{Portrait Style}}/Mateo/Armor_Goggles_Overlay_Val.png",
             "When": { "MateoTrollHeritage": true, "HasMod |contains=McJoan.Mateo": false }
         },
         {   
             "LogName": "Mateo's Troll Heritage Sprite Overlay",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Characters/Mateo, Characters/Mateo_Seasonal_Spring, Characters/Mateo_Seasonal_Summer, Characters/Mateo_Seasonal_Winter, Characters/Mateo_Seasonal_Fall_1, Characters/Mateo_Seasonal_Fall_2, Characters/EggFair_Mateo, Characters/IceFestWinterStar_Mateo, Characters/LuauMoonlight_Mateo, Characters/Armor_Mateo, Characters/Shirtless_Mateo",
+            "Target": "Characters/Mateo, Characters/Val_Seasonal_Spring, Characters/Val_Seasonal_Summer, Characters/Val_Seasonal_Winter, Characters/Val_Seasonal_Fall_1, Characters/Val_Seasonal_Fall_2, Characters/EggFair_Val, Characters/IceFestWinterStar_Val, Characters/LuauMoonlight_Val, Characters/Armor_Val, Characters/Shirtless_Val",
             "PatchMode": "Overlay",
-            "FromFile": "assets/Characters/Mateo/horn_overlay_mateo.png",
+            "FromFile": "assets/Characters/Mateo/horn_overlay_Val.png",
             "When": { "MateoTrollHeritage": true }
         },
         {   
             "LogName": "Tail Overlay Normal",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Characters/Mateo, Characters/Mateo_Seasonal_Spring, Characters/Mateo_Seasonal_Summer, Characters/Mateo_Seasonal_Winter, Characters/Mateo_Seasonal_Fall_1, Characters/Mateo_Seasonal_Fall_2, Characters/EggFair_Mateo, Characters/IceFestWinterStar_Mateo, Characters/LuauMoonlight_Mateo, Characters/Armor_Mateo, Characters/Shirtless_Mateo, Characters/FlowerDance_Mateo, Characters/Mateo_Beach",
+            "Target": "Characters/Mateo, Characters/Val_Seasonal_Spring, Characters/Val_Seasonal_Summer, Characters/Val_Seasonal_Winter, Characters/Val_Seasonal_Fall_1, Characters/Val_Seasonal_Fall_2, Characters/EggFair_Val, Characters/IceFestWinterStar_Val, Characters/LuauMoonlight_Val, Characters/Armor_Val, Characters/Shirtless_Val, Characters/FlowerDance_Val, Characters/Val_Beach",
             "PatchMode": "Overlay",
             "FromFile": "assets/Characters/Mateo/TailOverlays/tail_overlay_normal.png",
             "When": { "MateoTrollHeritage": true, "MateoTail": true }
@@ -189,7 +189,7 @@
             "LogName": "Tail Overlay Others",
             "Action": "EditImage",
             "Priority": "Early",
-            "Target": "Characters/DateNight_Mateo, Characters/BlacksmithMateo",
+            "Target": "Characters/DateNight_Val, Characters/BlacksmithMateo",
             "PatchMode": "Overlay",
             "FromFile": "assets/Characters/Mateo/TailOverlays/tail_overlay_{{TargetWithoutPath}}.png",
             "When": { "MateoTrollHeritage": true, "MateoTail": true }

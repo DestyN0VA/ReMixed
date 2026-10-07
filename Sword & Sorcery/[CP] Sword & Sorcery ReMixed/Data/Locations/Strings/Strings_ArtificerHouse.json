@@ -41,6 +41,7 @@
         "ValToDo": "{{i18n:Strings.ValToDo}}",
         "WhyBoat": "{{i18n:Strings.WhyBoat}}",
         "GreenLight": "{{i18n:Strings.GreenLight}}",
+        
       }
     }
   ]

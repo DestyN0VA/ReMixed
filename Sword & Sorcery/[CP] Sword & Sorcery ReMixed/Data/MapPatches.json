@@ -328,6 +328,7 @@
         "HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
       }
     },
+    /*
     // ADDS A LOCKED DOOR TO THE UNDERFORGE
     {
       "Action": "EditMap",
@@ -381,6 +382,7 @@
         }
       ]
     },
+    */
     // DEEP DARK WARPS
     {
       "LogName": "Deep Dark Entrance",
